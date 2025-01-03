@@ -1,0 +1,305 @@
+<html lang="en">
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css" />
+<style>
+  @page {
+    size: 21cm 29.7cm;
+    margin-top: 0.25cm;
+    margin-bottom: 0.25cm;
+    margin-left: 0.75cm;
+    margin-right: 0.75cm;
+  }
+
+  @font-face {
+    font-family: 'Calibri';
+    src: local('Calibri') format('truetype');
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+  }
+
+  body {
+    background-color: white;
+    font-family: 'Calibri';
+    color: #444444;
+    font-size: 9pt;
+  }
+
+  .section-header {
+    font-size: 23px;
+    line-height: 30px;
+    background: lightgrey;
+    border-top: 2px solid dimgrey;
+    border-bottom: 2px solid dimgrey;
+    margin-bottom: 3px;
+  }
+
+  .section {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  .record {
+    font-size: 18px;
+    line-height: 25px;
+    justify-content: space-between;
+  }
+
+  .job-title {
+    font-size: 18px;
+  }
+
+  .name {
+    font-weight: 600;
+    font-size: 40px;
+    color: #04013b;
+    height: 60px;
+    line-height: 110px;
+  }
+
+  .section-title {
+    font-weight: 400;
+    font-size: 30px;
+    color: #04013b;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: #cacace;
+  }
+
+  .technical-stack {
+    font-size: 16px;
+    color: grey;
+  }
+
+  .sub-line {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  .color-blue {
+    color: rgb(0, 127, 171);
+  }
+
+  .detail-list {
+    padding-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    list-style-position: inside;
+    font-size: 16px;
+  }
+
+  .detail-list>li {
+    text-indent: -1.2em;
+    padding-left: 1.2em;
+  }
+
+  .detail-list>p {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+  }
+
+  .button-table td {
+    position: relative;
+    padding-left: 1.5em;
+  }
+
+  .button-table td::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: rgb(0, 127, 171);;
+    font-size: 1.2em;
+    line-height: 1;
+  }
+
+  .item-detail {
+    font-weight: 100;
+    font-size: 16px;
+    color: #04013b;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 400,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+  }
+</style>
+
+<body>
+  <!-- Header -->
+  <div class="container" style="justify-content: space-between; height: 110px;">
+    <!-- Name -->
+    <div class="name" style="width: 60%; vertical-align: middle;">Zack, Cheung Yuet Tse</div>
+    <!-- Info -->
+    <div>
+      <table style="table-layout: fixed; height: 100%;">
+        <tr>
+          <td style="text-align: right; padding-right: 5px;">(+1) 437-986-0179</td>
+          <td><span class="material-symbols-outlined">phone_android</span></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 5px;">zackmoonca@gmail.com</td>
+          <td><span class="material-symbols-outlined">mail</span></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 5px;">github.com/Zack0079</td>
+          <td><object type="image/svg+xml"
+              data="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjYgMC0xMiA1LjM3My0xMiAxMiAwIDUuMzAyIDMuNDM4IDkuOCA4LjIwNyAxMS4zODcuNTk5LjExMS43OTMtLjI2MS43OTMtLjU3N3YtMi4yMzRjLTMuMzM4LjcyNi00LjAzMy0xLjQxNi00LjAzMy0xLjQxNi0uNTQ2LTEuMzg3LTEuMzMzLTEuNzU2LTEuMzMzLTEuNzU2LTEuMDg5LS43NDUuMDgzLS43MjkuMDgzLS43MjkgMS4yMDUuMDg0IDEuODM5IDEuMjM3IDEuODM5IDEuMjM3IDEuMDcgMS44MzQgMi44MDcgMS4zMDQgMy40OTIuOTk3LjEwNy0uNzc1LjQxOC0xLjMwNS43NjItMS42MDQtMi42NjUtLjMwNS01LjQ2Ny0xLjMzNC01LjQ2Ny01LjkzMSAwLTEuMzExLjQ2OS0yLjM4MSAxLjIzNi0zLjIyMS0uMTI0LS4zMDMtLjUzNS0xLjUyNC4xMTctMy4xNzYgMCAwIDEuMDA4LS4zMjIgMy4zMDEgMS4yMy45NTctLjI2NiAxLjk4My0uMzk5IDMuMDAzLS40MDQgMS4wMi4wMDUgMi4wNDcuMTM4IDMuMDA2LjQwNCAyLjI5MS0xLjU1MiAzLjI5Ny0xLjIzIDMuMjk3LTEuMjMuNjUzIDEuNjUzLjI0MiAyLjg3NC4xMTggMy4xNzYuNzcuODQgMS4yMzUgMS45MTEgMS4yMzUgMy4yMjEgMCA0LjYwOS0yLjgwNyA1LjYyNC01LjQ3OSA1LjkyMS40My4zNzIuODIzIDEuMTAyLjgyMyAyLjIyMnYzLjI5M2MwIC4zMTkuMTkyLjY5NC44MDEuNTc2IDQuNzY1LTEuNTg5IDguMTk5LTYuMDg2IDguMTk5LTExLjM4NiAwLTYuNjI3LTUuMzczLTEyLTEyLTEyeiIvPjwvc3ZnPg=="></object>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding-right: 5px;">www.linkedin.com/in/zackcyt</td>
+          <td><object type="image/svg+xml"
+              data="data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE5IDNBMiAyIDAgMCAxIDIxIDVWMTlBMiAyIDAgMCAxIDE5IDIxSDVBMiAyIDAgMCAxIDMgMTlWNUEyIDIgMCAwIDEgNSAzSDE5TTE4LjUgMTguNVYxMy4yQTMuMjYgMy4yNiAwIDAgMCAxNS4yNCA5Ljk0QzE0LjM5IDkuOTQgMTMuNCAxMC40NiAxMi45MiAxMS4yNFYxMC4xM0gxMC4xM1YxOC41SDEyLjkyVjEzLjU3QzEyLjkyIDEyLjggMTMuNTQgMTIuMTcgMTQuMzEgMTIuMTdBMS40IDEuNCAwIDAgMSAxNS43MSAxMy41N1YxOC41SDE4LjVNNi44OCA4LjU2QTEuNjggMS42OCAwIDAgMCA4LjU2IDYuODhDOC41NiA1Ljk1IDcuODEgNS4xOSA2Ljg4IDUuMTlBMS42OSAxLjY5IDAgMCAwIDUuMTkgNi44OEM1LjE5IDcuODEgNS45NSA4LjU2IDYuODggOC41Nk04LjI3IDE4LjVWMTAuMTNINS41VjE4LjVIOC4yN1oiIC8+PC9zdmc+"></object>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <!-- Education -->
+  <div class="section">
+    <div class="section-header"> <b>Education</b> </div>
+    <div style="margin: 10;"></div>
+
+    <!-- Centennial College -->
+    <div name="first_school" class="education">
+      <div class="container record">
+        <div class="job-title">
+          <span><b>Centennial College</b>,</span>
+          <span>Toronto, Canada</span>
+        </div>
+        <div style="font-size:16px"><span>Sept 2022 — May 2024</span></div>
+      </div>
+      <div style="font-size:16px;">
+        <span class="sub-line color-blue">Game Programming (Advanced Diploma)</span><span>, GPA 4.38/4.5</span>
+        <div class="sub-line">
+          <ul class="detail-list">
+            <li>A+ in Intro to Game & Simulation, C++ for Game Development and Special Topics - Gaming</li>
+            <li> C#, C++, Unity Engine, Unreal Engine, Blender, GIMP, ML-agent</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div style="margin: 10;"></div>
+
+    <!-- CUHK -->
+    <div name="second_school" class="education">
+      <div class="container record">
+        <div class="job-title">
+          <span><b>The Chinese University of Hong Kong (CUHK)</b>,</span>
+          <span>Hong Kong</span>
+        </div>
+        <div style="font-size:16px"><span>Sep 2013 — July 2017</span></div>
+      </div>
+      <div class="sub-line color-blue" style="padding-bottom: 5px;">Bachelor of Science in Computer Science (Degree)
+      </div>
+    </div>
+  </div>
+
+  <div style="margin: 20;"></div>
+  <!-- Experience -->
+  <div class="section">
+    <div class="section-header"> <b>Work Experience</b> </div>
+    <div style="margin: 10;"></div>
+
+    <!-- Student Research -->
+    <div class="experience">
+      <div class="container record">
+        <div class="job-title">
+          <span><b class="color-blue">Student Researcher</b>,</span>
+          <span><b>WIMTACH Centennial College</b>,</span>
+          <span>Toronto, Canada</span>
+        </div>
+        <div style="font-size:16px"><span>May 2023 — Sept 2023</span></div>
+      </div>
+      <div class="sub-line ">
+        <!-- <span>Unreal Engine 5 / C++ / Blueprint / Blender 3</span>  -->
+        <ul class="detail-list">
+          <li>Contributed to a R&D project aimed at enhancing an existing 3D game into a VR game for medical simulation,
+            &zwnj;focusing on animated vehicles navigating through human organs</li>
+          <li>Utilized Unreal Engine 5.2 for game development, improving visual fidelity and performance</li>
+          <li>Enhanced Blender 3.6 models by creating and integrating new collision meshes</li>
+          <li>Designed and implemented vehicle movement mechanics using Blueprint scripting</li>
+          <li>Connected VR devices including Oculus and HTC devices to Unreal Engine</li>
+        </ul>
+      </div>
+    </div>
+    <div style="margin: 10;"></div>
+
+    <!-- SmartDrop -->
+    <div class="experience">
+      <div class="container record">
+        <div class="job-title">
+          <span><b class="color-blue">Developer</b>,</span>
+          <span><b>Smart Drop</b>,</span>
+          <span>Hong Kong</span>
+        </div>
+        <div style="font-size:16px"><span>Jan 2018 — July 2022</span></div>
+      </div>
+      <div class="sub-line ">
+        <!-- <span>JavaScript / HTML & CSS / NodeJS  / ReactJS / VueJS  / AngularJS / PHP / SQL / Kotlin / GraphQL / AWS </span>  -->
+        <ul class="detail-list">
+          <li>Developed a comprehensive Content Management System for a global shared office</li>
+          <li>Designed and implemented a booking & order system to streamline the business process</li>
+          <li>Designed highly available application with cloud-native infrastructure using AWS Lambda & S3</li>
+          <li>Utilized React.js, Vue.js, and Angular.js for frontend application development</li>
+          <li>Lead the Android mobile app development enhancing mobile accessibility and user experience</li>
+          <li>Designed the database schema from scratch, ensuring optimal data organization and retrieval</li>
+          <li>Collaborated with external parties to integrate third-party APIs into the application, expanding
+            functionalities and improving service offerings</li>
+          <li>Utilized WordPress to enable customers to self-service minor changes to the website, empowering users and
+            reducing dependency on developers for routine updates</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div style="margin: 20;"></div>
+
+  <!-- Skills -->
+  <div class="section">
+    <div class="section-header"> <b>Skills</b> </div>
+    <div class="detail-list">
+      <table class="button-table" style="width:100%">
+        <tr>
+          <td>JavaScript &ndash; 6 years</td>
+          <td>HTML & CSS &ndash; 6 years</td>
+          <td>NodeJS &ndash; 5 years</td>
+          <td>ReactJS &ndash; 4 years</td>
+        </tr>
+        <tr>
+          <td>VueJS &ndash; 3 years</td>
+          <td>AngularJS &ndash; 3 years</td>
+          <td>PHP &ndash; 3 years</td>
+          <td>SQL &ndash; 3 years</td>
+
+        </tr>
+        <tr>
+          <td>AWS Service &ndash; 3 years</td>
+          <td>Java &ndash; 3 years</td>
+          <td>GraphQL &ndash; 2 years</td>
+          <td>Kotlin &ndash; 2 years</td>
+        </tr>
+        <tr>
+          <td>Unity &ndash; 2 years</td>
+          <td>C# &ndash; 2 years</td>
+          <td>Unreal &ndash; 2 years</td>
+          <td>C++ &ndash; 2 years</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>
